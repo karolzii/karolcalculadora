@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Hematócrito</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora de Hematócrito</h2>
+
+        <div class="input-group">
+            <label for="eritrocitos">Número de Eritrócitos </label>
+            <input type="number" id="eritrocitos" step="0.01">
+        </div>
+
+        <div class="input-group">
+            <label for="volume-total">Volume Total (mm³):</label>
+            <input type="number" id="volume-total" step="0.01">
+        </div>
+
+        <button onclick="calcularHematocrito()">Calcular</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

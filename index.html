@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorando o Estado Hematócrito</h1>
+    </header>
+
+    <div class="main-content">
+        <div class="content-with-image">
+            <div class="text-content">
+                <p>O hematócrito é uma medida do volume percentual de células vermelhas do sangue em relação ao volume total de sangue.</p>
+                <p>Esta calculadora ajudará a determinar o hematócrito com base no número de eritrócitos e no volume total.</p>
+                
+                <button onclick="openPopup()">Iniciar</button>
+            </div>
+
+            <div class="image-container">
+                <img src="hema.jpg" alt="Imagem de exemplo">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 Explorando o Estado Hematócrito</p>
+    </footer>
+
+    <script>
+        function openPopup() {
+            window.open("popup.html", "Popup", "width=500,height=500");
+        }
+    </script>
+</body>
+</html>
